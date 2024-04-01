@@ -11,7 +11,7 @@
     "runsolver_kill_delay" : 10,
     "slurm_time_buffer" : 1,
     "timeout_factor" : 1,
-    "partition" : "broadwell",
+    "partition" : "debug",
     "mem_lines" : 4,
     "cpus_per_node" : 24
 }
