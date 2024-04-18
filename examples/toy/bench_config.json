@@ -2,8 +2,9 @@
     "name" : "example_bench",
     "configs" : "configs.txt",
     "instances" : "instances.txt",
-    "timeout" : 60,   
+    "timeout" : 60,
     "mem_limit" : 25600,
+    "email" : "arijit.shaw@mail.utoronto.ca",
     "request_cpus" : 1,
     "runs" : 5,
     "initial_seed" : 1234,
@@ -12,6 +13,5 @@
     "slurm_time_buffer" : 1,
     "timeout_factor" : 1,
     "partition" : "debug",
-    "mem_lines" : 4,
-    "cpus_per_node" : 24
+    "mem_lines" : 4
 }

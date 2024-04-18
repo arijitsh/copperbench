@@ -4,7 +4,6 @@
 #SBATCH --time={{ slurm_timeout }}
 #SBATCH --partition={{ partition }}
 #SBATCH --cpus-per-task={{ cpus_per_task }}
-#SBATCH --mem-per-cpu={{ mem_per_cpu }}
 {%- if email is not none %}
 #SBATCH --mail-user={{ email }}
 #SBATCH --mail-type=end

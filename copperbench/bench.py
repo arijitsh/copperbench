@@ -45,8 +45,8 @@ class BenchConfig:
     slurm_time_buffer: int = 10
     timeout_factor: int = 1
     initial_seed: Optional[int] = None
-    partition: str = 'broadwell'
-    cpus_per_node: int = 24
+    partition: str = 'compute'
+    cpus_per_node: int = 40
     mem_lines: int = 8
     exclusive: bool = False
     cpu_freq: int = 2200
